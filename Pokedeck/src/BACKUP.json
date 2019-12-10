@@ -1,0 +1,46 @@
+{
+	"pokedeck": [
+		{
+			"cardType": "pokemon",
+			"imgUrl": "./src/img/pokemon.png",
+			"id": 0,
+			"cardName": "pikachu",
+			"attr": [{
+				"hp": 60,
+				"type": "lightning",
+				"attack": [
+					{
+						"name": "Gnaw",
+						"desc": "",
+						"power": 10
+					},
+					{
+						"name": "Agility",
+						"desc": "Flip a coin. If heads. prevent all effects of attacks, including damage, done to this Pokemon during your opponent's next turn.",
+						"power": 10
+					}
+				]
+			}]
+		},
+		{
+			"cardType": "trainer",
+			"imgUrl": "./src/img/pokeball.png",
+			"id": 1,
+			"cardName": "PokeBall",
+			"attr": [{
+				"trainerType": "item",
+				"textBox": "Flip a coin",
+				"trainerRule": "You may play"
+			}]
+		},
+		{
+			"cardType": "energy",
+			"imgUrl": "./src/img/lightning.png",
+			"id": 2,
+			"cardName": "Lightning",
+			"attr": [{
+				"type": "lightning"
+			}]
+		}
+	]
+}
